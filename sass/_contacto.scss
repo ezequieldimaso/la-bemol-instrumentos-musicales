@@ -1,0 +1,55 @@
+/*contacto*/
+.gradiente{
+    background-image: $gradienteSubtitulo;
+    h2{
+        @extend .instrumentos__gradiente;
+    }
+}
+.map{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+.contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    @media screen and (min-width:360px){
+        display: flex;
+        flex-direction: column;
+        align-items: start
+    }
+    @media screen and (min-width:768px){
+        display: flex;
+        flex-direction: row;
+    }
+    @media screen and (min-width:1024px){
+        display: flex;
+        flex-direction: row;
+    }
+    .contacto__info{
+        display: flex;
+        flex-direction: column;
+        margin-right: 752px;
+        @media screen and (min-width:768px){
+            margin-right: 20px;
+        }
+        @media screen and (min-width:1024px){
+            display: flex;
+            flex-direction: column;
+            margin-right: 126px;
+        }
+        h2{
+            color:$colorText;
+            text-decoration: underline;
+        }
+    }
+    .formularios{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }   
+}

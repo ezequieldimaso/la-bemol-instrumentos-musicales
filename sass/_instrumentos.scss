@@ -1,0 +1,45 @@
+/*container de instrumentos*/
+.gradiente{
+    background-image:$gradienteSubtitulo;
+    .instrumentos__gradiente{
+        color:white;
+        padding: 50px;
+        text-align: center;
+        font-size: 35px;
+        font-family:monospace;
+        letter-spacing: 2px;  
+        margin-top: 20px; 
+    }
+}
+.instrumentos{
+    display: grid;
+    justify-content: center;
+    grid-column-gap: 50px;
+    justify-items: center;
+    margin-top: 40px; 
+    @media screen and (min-width:360px){
+        display: grid;
+        grid-template-columns: 0px;
+    }
+    @media screen and (min-width:768px){
+        display: grid;
+        grid-template-columns: 300px 300px;
+    }
+    @media screen and (min-width:1024px){
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+    }
+    .instrumentos__caja{
+        box-shadow:0px 4px 20px black ;
+        margin-bottom: 20px;
+        transition: all 1s; 
+        border-radius: 10px;  
+    }
+}
+/*efecto imagen*/
+.instrumentos{
+    .instrumentos__caja :hover{
+        background-color: gainsboro;
+        opacity: 0.8;
+    }
+}

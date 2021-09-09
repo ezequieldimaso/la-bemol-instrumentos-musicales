@@ -1,0 +1,14 @@
+/*fotter*/
+footer{
+    &.site-footer{
+        height: 20vh;
+        .iconos{
+            color: white;
+            font-size: 20px;    
+        }   
+    }
+}
+/*display de los iconos*/
+.iconos i:hover {
+    color: aqua;
+}
