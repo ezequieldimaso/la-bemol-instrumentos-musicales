@@ -2,6 +2,9 @@
 footer{
     &.site-footer{
         height: 20vh;
+        @media screen and (min-width:360px){
+            height: 45vh;
+        }
         .iconos{
             color: white;
             font-size: 20px;    
@@ -11,4 +14,14 @@ footer{
 /*display de los iconos*/
 .iconos i:hover {
     color: aqua;
+}
+.enlacesPie{
+    @media screen and (min-width:360px){
+        display: flex;
+        flex-direction: column;
+    }
+    @media screen and (min-width:768px){
+        display: flex;
+        flex-direction: row;
+    }
 }
