@@ -1,5 +1,19 @@
 /*main del index*/
+$boxMargin:20px 25px 40px;
+$marginBtn:30px;
+$colorText:red;
 main{
+    &.margen{
+        @media screen and (min-width:360px){
+            margin-top: 150px;
+        }
+        @media screen and (min-width:768px){
+            margin-top: 160px;
+        }
+        @media screen and (min-width:1024px){
+            margin-top: 200px;
+        }
+    }
     .banners{
         display: flex;
         flex-direction: row;
@@ -9,7 +23,7 @@ main{
          display: flex;
          flex-direction: column;
          align-items: center;
-         margin-top: 70px;
+         margin-top: 20px;
         }
         @media screen and (min-width:768px){
             display: flex;
@@ -19,9 +33,14 @@ main{
         a{
             img{       
                 &.imgBanner{
+                    margin-right: 20px;
                     @media screen and (min-width:360px){
                         margin-top: 20px;
                     }
+                    @media screen and (min-width:768px){
+                        margin-right: 10px;
+                    }
+            
                 }
             }
         }   
@@ -41,7 +60,7 @@ main{
             margin-top: 50px;
         }
         @media screen and (min-width:1880px){
-            margin-top: 250px;
+            margin-top: 20px;
         }
 
         .productos__imagenes{
@@ -80,12 +99,14 @@ main{
 /*seccion de info*/
 section{
     .info{
+        background-color: white;
         box-shadow: 0px 4px 20px black;
         padding:20px;
         margin: 30px 20px;
         h2{
             &.info__textoSubrayado{
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color:$colorText;
             }
         }
     }

@@ -1,4 +1,4 @@
-/*header*/
+
 *{
     text-decoration: none;
     box-sizing: border-box;  
@@ -7,6 +7,10 @@
     font-family: sans-serif;
     list-style: none; 
 }
+body{
+    background-image: url(../imagenes/fondo.jpg);
+}
+/*header*/
 .imgLogo{
     @media screen and (min-width:360px){
         width: 100px;
