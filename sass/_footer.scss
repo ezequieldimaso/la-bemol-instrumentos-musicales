@@ -1,9 +1,11 @@
 /*fotter*/
 footer{
     &.site-footer{
-        height: 20vh;
         @media screen and (min-width:360px){
             height: 45vh;
+        }
+        @media screen and (min-width:768px){
+            height: 30vh;
         }
         .iconos{
             color: white;
@@ -24,4 +26,17 @@ footer{
         display: flex;
         flex-direction: row;
     }
+}
+.btnWhatsapp{
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    bottom: 30px;
+    right: 30px;
+    background-color: green;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 40px;
 }
