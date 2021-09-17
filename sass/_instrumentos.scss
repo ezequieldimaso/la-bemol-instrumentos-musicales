@@ -1,7 +1,7 @@
 /*container de instrumentos*/
 $gradienteSubtitulo: linear-gradient(
     45deg
-    , blue, transparent);
+    ,blue, transparent);
 .gradiente{
     background-image:$gradienteSubtitulo;
     .instrumentos__gradiente{
@@ -40,9 +40,10 @@ $gradienteSubtitulo: linear-gradient(
     }
 }
 /*efecto imagen*/
+
 .instrumentos{
     .instrumentos__caja :hover{
-        background-color: gainsboro;
-        opacity: 0.8;
+        opacity: 0.9;
+        border-color: red;
     }
 }
