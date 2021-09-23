@@ -240,11 +240,17 @@ section .info h2.info__textoSubrayado {
 /*fotter*/
 @media screen and (min-width: 360px) {
   footer.site-footer {
-    height: 45vh;
+    height: 60vh;
   }
 }
 
 @media screen and (min-width: 768px) {
+  footer.site-footer {
+    height: 50vh;
+  }
+}
+
+@media screen and (min-width: 1024px) {
   footer.site-footer {
     height: 30vh;
   }
@@ -284,18 +290,47 @@ footer.site-footer .iconos {
   }
 }
 
+p.derechosReservados {
+  font-size: 13px;
+}
+
 .btnWhatsapp {
   position: fixed;
-  width: 80px;
-  height: 80px;
-  line-height: 80px;
-  bottom: 30px;
-  right: 30px;
   background-color: green;
   color: white;
-  border-radius: 50px;
   text-align: center;
-  font-size: 40px;
+}
+
+@media screen and (min-width: 360px) {
+  .btnWhatsapp {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    right: 15px;
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .btnWhatsapp {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    right: 22px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .btnWhatsapp {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50px;
+    font-size: 40px;
+  }
 }
 
 /*container de instrumentos*/

@@ -1,10 +1,14 @@
 /*fotter*/
+$colorIcons:aqua;
 footer{
     &.site-footer{
         @media screen and (min-width:360px){
-            height: 45vh;
+            height: 60vh;
         }
         @media screen and (min-width:768px){
+            height: 50vh;
+        }
+        @media screen and (min-width:1024px){
             height: 30vh;
         }
         .iconos{
@@ -15,7 +19,7 @@ footer{
 }
 /*display de los iconos*/
 .iconos i:hover {
-    color: aqua;
+    color: $colorIcons
 }
 .enlacesPie{
     @media screen and (min-width:360px){
@@ -27,16 +31,38 @@ footer{
         flex-direction: row;
     }
 }
+p{
+    &.derechosReservados{
+        font-size: 13px;
+    }
+}
 .btnWhatsapp{
     position: fixed;
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
-    bottom: 30px;
-    right: 30px;
     background-color: green;
     color: white;
-    border-radius: 50px;
     text-align: center;
-    font-size: 40px;
+    @media screen and (min-width:360px){
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        right: 15px;
+        font-size: 25px;
+    }
+    @media screen and (min-width:768px){
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        right: 22px;
+        font-size: 30px;
+    }
+    @media screen and (min-width:1024px){
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        bottom: 30px;
+        right: 30px;
+        border-radius: 50px;
+        font-size: 40px;
+
+    }
 }
