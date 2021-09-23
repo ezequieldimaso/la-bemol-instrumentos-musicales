@@ -252,7 +252,7 @@ section .info h2.info__textoSubrayado {
 
 @media screen and (min-width: 1024px) {
   footer.site-footer {
-    height: 30vh;
+    height: 45vh;
   }
 }
 
@@ -299,6 +299,13 @@ p.derechosReservados {
   background-color: green;
   color: white;
   text-align: center;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  bottom: 30px;
+  right: 30px;
+  border-radius: 50px;
+  font-size: 40px;
 }
 
 @media screen and (min-width: 360px) {
@@ -323,13 +330,11 @@ p.derechosReservados {
 
 @media screen and (min-width: 1024px) {
   .btnWhatsapp {
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
-    bottom: 30px;
-    right: 30px;
-    border-radius: 50px;
-    font-size: 40px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    right: 25px;
+    font-size: 35px;
   }
 }
 
