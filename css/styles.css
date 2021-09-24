@@ -219,7 +219,6 @@ section .info {
 }
 
 section .info h2.info__textoSubrayado {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: red;
 }
 
