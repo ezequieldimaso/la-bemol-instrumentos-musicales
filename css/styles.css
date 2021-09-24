@@ -406,10 +406,28 @@ p.derechosReservados {
   border-radius: 10px;
 }
 
+.instrumentos img.scale {
+  padding: 20px;
+}
+
+.instrumentos ol.containerDescripcion {
+  background-color: gray;
+  border-radius: 20px;
+}
+
 /*efecto imagen*/
 .instrumentos .instrumentos__caja :hover {
-  opacity: 0.9;
   border-color: red;
+}
+
+.instrumentos .instrumentos__caja :hover img.scale {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.instrumentosModal:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 /*contacto*/

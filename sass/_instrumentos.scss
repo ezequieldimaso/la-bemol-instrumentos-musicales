@@ -38,12 +38,30 @@ $gradienteSubtitulo: linear-gradient(
         transition: all 1s; 
         border-radius: 10px;  
     }
+    img{
+        &.scale{
+            padding: 20px;
+        }
+    }
+    ol{
+        &.containerDescripcion{
+            background-color:gray;
+            border-radius: 20px;
+        }
+    }
 }
 /*efecto imagen*/
 
 .instrumentos{
     .instrumentos__caja :hover{
-        opacity: 0.9;
         border-color: red;
+        img{
+            &.scale{
+                transform: scale(1.15);
+            }
+        }
     }
+}
+.instrumentosModal:hover{
+    transform: scale(1.05);
 }

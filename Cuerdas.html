@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <meta name="description" content="Aqui encontraras una amplia variedad de instrumentos de cuerdas al mejor precio y calidad">
   <meta name="keywords" content="Instrumentos,Musica,Guitarras,Bajos,Percusion,Fender,Mapex,Marshall">
     
@@ -29,7 +30,7 @@
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
-            <img src="./imagenes/logo-200.png" alt="logo-200" class="imgLogo animate__animated animate__backInRight">
+            <img src="./imagenes/logo-200.png" alt="logo-200" class="imgLogo animate__animated animate__bounceInLeft">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -86,10 +87,13 @@
                 <a class="nav-link" href="./Contacto.html">Contacto</a>
               </li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
-            </form>
+            <div class="container-fluid">
+              <form class="d-flex">
+                <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                
+              </form>
+          </div>
           </div>
         </div>
       </nav>
@@ -115,89 +119,342 @@
               <div class="card-body">
                 <h5 class="card-title">Kramer</h5>
                 <p class="card-text">Guitarra Electrica Kramer By Gibson Con Floyd Rose K84vrwbbf1 The 84</p>
-                <a href="#" class="btn btn-primary">Mas informacion</a>
+                <!--modal inicio-->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Kramer">
+                  Mas informacion
+                </button>
+
+                <div class="modal fade" id="Kramer" tabindex="-1" aria-labelledby="Kramer" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h4 class="modal-title" id="Kramer">Kramer</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body instrumentosModal">
+                        <img src="./imagenes/guitarra-kramer.jpg" class="img-fluid" alt="guitarra-kramer">
+                      </div>
+                      <div class="container-fluid">
+                        <ol class="containerDescripcion"><h5><strong>Descripcion</strong></h5>
+                          <li>Cuerpo de arce sólido disponible en tres potentes acabados brillantes.</li>
+                          <li>Mástil de arce con popular perfil delgado y ancho.</li>
+                          <li>Chisporroteo Seymour Duncan pickup JB de bobina abierta con roscado de bobina push / pull.</li>
+                        </ol>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--modal fin-->
               </div>
             </div>
           </div>
+
           <div class="instrumentos__caja">
             <div class="card" style="width: 18rem;">
-              <img src="./imagenes/guitarra-gretsch2.jpg" class="card-img-top" alt="guitarra-gretsch2">
+              <img src="./imagenes/guitarra-gretsch2.jpg" class="card-img-top scale" alt="guitarra-gretsch2">
               <div class="card-body">
                 <h5 class="card-title">Gretsch</h5>
                 <p class="card-text">Guitarra Electrica Gretsch G5422t Electromatic Hollow Maple Electromatic collection
                 </p>
-                <a href="#" class="btn btn-primary">Mas informacion</a>
+                 <!--modal inicio-->
+                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Gretsch2">
+                  Mas informacion
+                </button>
+
+                <div class="modal fade" id="Gretsch2" tabindex="-1" aria-labelledby="Gretsch2" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h4 class="modal-title" id="Gretsch2">Gretsch</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body instrumentosModal">
+                        <img src="./imagenes/guitarra-gretsch2.jpg" class="img-fluid" alt="guitarra-gretsch2">
+                      </div>
+                      <div class="container-fluid">
+                        <ol class="containerDescripcion"><h5><strong>Descripcion</strong></h5>
+                          <li> Acabado: Naranja (Orange Stain) brillant</li>
+                          <li>Mástil de arce con popular perfil delgado y ancho.</li>
+                          <li>Chisporroteo Seymour Duncan pickup JB de bobina abierta con roscado de bobina push / pull.</li>
+                        </ol>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--modal fin-->
               </div>
             </div>
           </div>
           <div class="instrumentos__caja">
             <div class="card" style="width: 18rem;">
-              <img src="./imagenes/fender.jpg" class="card-img-top" alt="fender">
+              <img src="./imagenes/fender.jpg" class="card-img-top scale" alt="fender">
               <div class="card-body">
                 <h5 class="card-title">Fender</h5>
                 <p class="card-text">Guitarra Fender Stratocaster Beck Noiseless Surf Green Jeff Beck Custom Shop Artist
                   Serie</p>
-                <a href="#" class="btn btn-primary">Mas informacion</a>
+                 <!--modal inicio-->
+                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#fender">
+                  Mas informacion
+                </button>
+
+                <div class="modal fade" id="fender" tabindex="-1" aria-labelledby="fender" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h4 class="modal-title" id="fender">Fender</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body instrumentosModal">
+                        <img src="./imagenes/fender.jpg" class="img-fluid" alt="fender">
+                      </div>
+                      <div class="container-fluid">
+                        <ol class="containerDescripcion"><h5><strong>Descripcion</strong></h5>
+                        <li>Cuerpo de arce sólido disponible en tres potentes acabados brillantes.</li>
+                        <li>Mástil de arce con popular perfil delgado y ancho.</li>
+                        <li>Chisporroteo Seymour Duncan pickup JB de bobina abierta con roscado de bobina push / pull.</li>
+                        </ol>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--modal fin-->
               </div>
             </div>
           </div>
           <div class="instrumentos__caja">
             <div class="card" style="width: 18rem;">
-              <img src="./imagenes/guitarra2.jpg" class="card-img-top" alt="guitarra2">
+              <img src="./imagenes/guitarra2.jpg" class="card-img-top scale" alt="guitarra2">
               <div class="card-body">
                 <h5 class="card-title">Danelectro</h5>
                 <p class="card-text">Guitarra Eléctrica Danelectro 56gtrbblk 56 Single Cutway Bottle Headstock </p>
-                <a href="#" class="btn btn-primary">Mas informacion</a>
+                 <!--modal inicio-->
+                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Mas informacion
+                </button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h4 class="modal-title" id="exampleModalLabel">Kramer</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body instrumentosModal">
+                        <img src="./imagenes/guitarra-kramer.jpg" class="img-fluid" alt="...">
+                      </div>
+                      <div class="container-fluid">
+                        <ol class="containerDescripcion"><h5><strong>Descripcion</strong></h5>
+                        <li>Cuerpo de arce sólido disponible en tres potentes acabados brillantes.</li>
+                        <li>Mástil de arce con popular perfil delgado y ancho.</li>
+                        <li>Chisporroteo Seymour Duncan pickup JB de bobina abierta con roscado de bobina push / pull.</li>
+                        </ol>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--modal fin-->
               </div>
             </div>
           </div>
           <div class="instrumentos__caja">
             <div class="card" style="width: 18rem;">
-              <img src="./imagenes/guitarra-esp.jpg" class="card-img-top" alt="guitarra-esp">
+              <img src="./imagenes/guitarra-esp.jpg" class="card-img-top scale" alt="guitarra-esp">
               <div class="card-body">
                 <h5 class="card-title">Esp</h5>
                 <p class="card-text">Guitarra Electrica Ltd Esp Tipo Telecaster Modelo Te200r-tsb serie LTD</p>
-                <a href="#" class="btn btn-primary">Mas informacion</a>
+                 <!--modal inicio-->
+                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Mas informacion
+                </button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h4 class="modal-title" id="exampleModalLabel">Kramer</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body instrumentosModal">
+                        <img src="./imagenes/guitarra-kramer.jpg" class="img-fluid" alt="...">
+                      </div>
+                      <div class="container-fluid">
+                        <ol class="containerDescripcion"><h5><strong>Descripcion</strong></h5>
+                        <li>Cuerpo de arce sólido disponible en tres potentes acabados brillantes.</li>
+                        <li>Mástil de arce con popular perfil delgado y ancho.</li>
+                        <li>Chisporroteo Seymour Duncan pickup JB de bobina abierta con roscado de bobina push / pull.</li>
+                        </ol>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--modal fin-->
               </div>
             </div>
           </div>
           <div class="instrumentos__caja">
             <div class="card" style="width: 18rem;">
-              <img src="./imagenes/guitarra-esp2.jpg" class="card-img-top" alt="guitarra-esp2">
+              <img src="./imagenes/guitarra-esp2.jpg" class="card-img-top scale" alt="guitarra-esp2">
               <div class="card-body">
                 <h5 class="card-title">Esp</h5>
                 <p class="card-text">Guitarra Electrica Ltd By Esp Ec10red Mic Esp Red LH-100N Serie ltd 10</p>
-                <a href="#" class="btn btn-primary">Mas informacion</a>
+                 <!--modal inicio-->
+                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Mas informacion
+                </button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h4 class="modal-title" id="exampleModalLabel">Kramer</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body instrumentosModal">
+                        <img src="./imagenes/guitarra-kramer.jpg" class="img-fluid" alt="...">
+                      </div>
+                      <div class="container-fluid">
+                        <ol class="containerDescripcion"><h5><strong>Descripcion</strong></h5>
+                        <li>Cuerpo de arce sólido disponible en tres potentes acabados brillantes.</li>
+                        <li>Mástil de arce con popular perfil delgado y ancho.</li>
+                        <li>Chisporroteo Seymour Duncan pickup JB de bobina abierta con roscado de bobina push / pull.</li>
+                        </ol>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--modal fin-->
               </div>
             </div>
           </div>
           <div class="instrumentos__caja">
             <div class="card" style="width: 18rem;">
-              <img src="./imagenes/guitarra-fender3.jpg" class="card-img-top" alt="guitarra-fender3">
+              <img src="./imagenes/guitarra-fender3.jpg" class="card-img-top scale" alt="guitarra-fender3">
               <div class="card-body">
                 <h5 class="card-title">Fender</h5>
                 <p class="card-text">Guitarra Eléctrica Fender Coronado Media Caja Rwn Hh Modelo 1/2 Caja</p>
-                <a href="#" class="btn btn-primary">Mas informacion</a>
+                 <!--modal inicio-->
+                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Mas informacion
+                </button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h4 class="modal-title" id="exampleModalLabel">Kramer</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body instrumentosModal">
+                        <img src="./imagenes/guitarra-kramer.jpg" class="img-fluid" alt="...">
+                      </div>
+                      <div class="container-fluid">
+                        <ol class="containerDescripcion"><h5><strong>Descripcion</strong></h5>
+                        <li>Cuerpo de arce sólido disponible en tres potentes acabados brillantes.</li>
+                        <li>Mástil de arce con popular perfil delgado y ancho.</li>
+                        <li>Chisporroteo Seymour Duncan pickup JB de bobina abierta con roscado de bobina push / pull.</li>
+                        </ol>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--modal fin-->
               </div>
             </div>
           </div>
           <div class="instrumentos__caja">
             <div class="card" style="width: 18rem;">
-              <img src="./imagenes/guitarra-esp4.jpg" class="card-img-top" alt="guitarra-kramer">
+              <img src="./imagenes/guitarra-esp4.jpg" class="card-img-top scale" alt="guitarra-kramer">
               <div class="card-body">
                 <h5 class="card-title">Esp</h5>
                 <p class="card-text">Guitarra Electrica Ltd Esp Serie Snapper Modelo Sn200frr-ms Linea Snapper</p>
-                <a href="#" class="btn btn-primary">Mas informacion</a>
+                 <!--modal inicio-->
+                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Mas informacion
+                </button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h4 class="modal-title" id="exampleModalLabel">Kramer</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body instrumentosModal">
+                        <img src="./imagenes/guitarra-kramer.jpg" class="img-fluid" alt="...">
+                      </div>
+                      <div class="container-fluid">
+                        <ol class="containerDescripcion"><h5><strong>Descripcion</strong></h5>
+                        <li>Cuerpo de arce sólido disponible en tres potentes acabados brillantes.</li>
+                        <li>Mástil de arce con popular perfil delgado y ancho.</li>
+                        <li>Chisporroteo Seymour Duncan pickup JB de bobina abierta con roscado de bobina push / pull.</li>
+                        </ol>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--modal fin-->
               </div>
             </div>
           </div>
           <div class="instrumentos__caja">
             <div class="card" style="width: 18rem;">
-              <img src="./imagenes/guitarra-gretsch.jpg" class="card-img-top" alt="guitarra-kramer">
+              <img src="./imagenes/guitarra-gretsch.jpg" class="card-img-top scale" alt="guitarra-kramer">
               <div class="card-body">
                 <h5 class="card-title">Gretsch</h5>
                 <p class="card-text">Guitarra Eléctrica Gretsch G5430T Electromatic Jet Con Bigsby Aleutian Blue</p>
-                <a href="#" class="btn btn-primary">Mas informacion</a>
+                 <!--modal inicio-->
+                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Mas informacion
+                </button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h4 class="modal-title" id="exampleModalLabel">Kramer</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body instrumentosModal">
+                        <img src="./imagenes/guitarra-kramer.jpg" class="img-fluid" alt="...">
+                      </div>
+                      <div class="container-fluid">
+                        <ol class="containerDescripcion"><h5><strong>Descripcion</strong></h5>
+                        <li>Cuerpo de arce sólido disponible en tres potentes acabados brillantes.</li>
+                        <li>Mástil de arce con popular perfil delgado y ancho.</li>
+                        <li>Chisporroteo Seymour Duncan pickup JB de bobina abierta con roscado de bobina push / pull.</li>
+                        </ol>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--modal fin-->
               </div>
             </div>
           </div>
@@ -225,7 +482,7 @@
           </div>
           <div class="instrumentos__caja">
             <div class="card" style="width: 18rem;">
-              <img src="./imagenes/bajo-fender2.jpg" class="card-img-top" alt="bajo-fender2">
+              <img src="./imagenes/bajo-fender2.jpg" class="card-img-top scale" alt="bajo-fender2">
               <div class="card-body">
                 <h5 class="card-title">Fender</h5>
                 <p class="card-text">Bajo Eléctrico Fender Coronado Bass Media Cherry Burst Rosewood Fingerboard</p>
@@ -235,7 +492,7 @@
           </div>
           <div class="instrumentos__caja">
             <div class="card" style="width: 18rem;">
-              <img src="./imagenes/bajo-fender3.jpg" class="card-img-top" alt="bajo-fender3">
+              <img src="./imagenes/bajo-fender3.jpg" class="card-img-top scale" alt="bajo-fender3">
               <div class="card-body">
                 <h5 class="card-title">Fender</h5>
                 <p class="card-text">Bajo Eléctrico Fender Coronado Bass Media Caja Rosewood Fingerboard Modern Player
@@ -246,7 +503,7 @@
           </div>
           <div class="instrumentos__caja">
             <div class="card" style="width: 18rem;">
-              <img src="./imagenes/bajo-leonard.jpg" class="card-img-top" alt="bajo-leonard">
+              <img src="./imagenes/bajo-leonard.jpg" class="card-img-top scale" alt="bajo-leonard">
               <div class="card-body">
                 <h5 class="card-title">Leonard</h5>
                 <p class="card-text">Bajo Electrico Leonard Lb252 Tipo Precision De 4 Cuerdas Color Blue Series </p>
@@ -256,7 +513,7 @@
           </div>
           <div class="instrumentos__caja">
             <div class="card" style="width: 18rem;">
-              <img src="./imagenes/bajo-leonard2.jpg" class="card-img-top" alt="bajo-leonard2">
+              <img src="./imagenes/bajo-leonard2.jpg" class="card-img-top scale" alt="bajo-leonard2">
               <div class="card-body">
                 <h5 class="card-title">Leonard</h5>
                 <p class="card-text">Bajo Electrico Leonard Lb252 Tipo Precision De 4 Cuerdas Black Series</p>
@@ -266,7 +523,7 @@
           </div>
           <div class="instrumentos__caja">
             <div class="card" style="width: 18rem;">
-              <img src="./imagenes/bajo-leonard3.jpg" class="card-img-top" alt="bajo-leonard3">
+              <img src="./imagenes/bajo-leonard3.jpg" class="card-img-top scale" alt="bajo-leonard3">
               <div class="card-body">
                 <h5 class="card-title"> Leonard</h5>
                 <p class="card-text">Bajo Electrico Leonard Lb252 Tipo Precision De 4 Cuerdas Hot Red Series</p>
@@ -276,7 +533,7 @@
           </div>
           <div class="instrumentos__caja">
             <div class="card" style="width: 18rem;">
-              <img src="./imagenes/bajo-squier.jpg" class="card-img-top" alt="bajo-squier">
+              <img src="./imagenes/bajo-squier.jpg" class="card-img-top scale" alt="bajo-squier">
               <div class="card-body">
                 <h5 class="card-title">Squier</h5>
                 <p class="card-text">Bajo Squier By Fender Jazz Bass Deluxe Activo Sunburst C Shape Series</p>
@@ -286,7 +543,7 @@
           </div>
           <div class="instrumentos__caja">
             <div class="card" style="width: 18rem;">
-              <img src="./imagenes/bajo-squier2.jpg" class="card-img-top" alt="bajo-squier2">
+              <img src="./imagenes/bajo-squier2.jpg" class="card-img-top scale" alt="bajo-squier2">
               <div class="card-body">
                 <h5 class="card-title">Squier</h5>
                 <p class="card-text">Bajo Squier By Fender Jazz Bass Deluxe Activo Sunburst Serie Vintage</p>
@@ -296,7 +553,7 @@
           </div>
           <div class="instrumentos__caja">
             <div class="card" style="width: 18rem;">
-              <img src="./imagenes/bajo-squier3.jpg" class="card-img-top" alt="bajo-squier3">
+              <img src="./imagenes/bajo-squier3.jpg" class="card-img-top scale" alt="bajo-squier3">
               <div class="card-body">
                 <h5 class="card-title">Squier</h5>
                 <p class="card-text">Bajo Squier By Fender Jazz Bass Affinity Series Rosewood Single Coil</p>
@@ -307,15 +564,27 @@
         </div>
       </section>
 
-       <!--instrumentos comienzo-->
+       <!--instrumentos fin-->
 
     </main>
 
      <!--info texto comienzo-->
 
     <section class="container text-center ">
+      
+      <div class="info"  data-aos="fade-right">
+        <i class="fas fa-music"></i>
+        <h2 class="info__textoSubrayado">Formas de Pago</h2>
+        <div class="iconos">
+          <i class="fab fa-cc-amex"></i>
+          <i class="fab fa-cc-diners-club"></i>
+          <i class="fab fa-cc-mastercard"></i>
+          <i class="fab fa-cc-paypal"></i>
+          <i class="fab fa-cc-visa"></i>
+        </div>
+      </div>
 
-      <div class="info">
+      <div class="info" data-aos="fade-left">
         <i class="fas fa-music"></i>
         <h2 class="info__textoSubrayado">Nosotros</h2>
         <p class="info__parrafo">Somos una empresa con 25 años de experiencia en el mercado </p>
@@ -323,7 +592,7 @@
         <p class="info__parrafo"> Productos de la mas alta calidad </p>
       </div>
 
-      <div class="info">
+      <div class="info" data-aos="fade-right" >
         <i class="fas fa-music"></i>
         <h2 class="info__textoSubrayado">Envios Nacionales</h2>
         <p class="info__parrafo">la Bemol instrumentos musicales realizará tu envío, una vez el
@@ -333,7 +602,7 @@
 
       </div>
 
-      <div class="info">
+      <div class="info" data-aos="fade-left">
         <i class="fas fa-music"></i>
         <h2 class="info__textoSubrayado">Terminos y Garantias</h2>
         <p class="info__parrafo">Garantias,terminos y condiciones</p>
@@ -354,6 +623,8 @@
         <i class="fab fa-instagram"></i>
 
         <i class="fab fa-twitter"></i>
+
+        <i class="far fa-envelope"></i>
       </div>
       <div class="container pt-5 ">
         <div class="row enlacesPie">
@@ -379,7 +650,11 @@
           </div>
           </div>
         </div>
+        <div class="container tex-center mt-5">
+          <p class="derechosReservados">© La Bemol Instrumentos Musicales-2021</p>
+        </div>
       </div>
+      
       
       <div class="btnWhatsapp">
         <i class="fab fa-whatsapp"></i>
@@ -393,6 +668,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
     crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
