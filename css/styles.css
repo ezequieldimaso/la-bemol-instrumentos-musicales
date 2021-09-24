@@ -4,7 +4,7 @@
           box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  font-family: sans-serif;
+  font-family: 'Gluten', cursive;
   list-style: none;
 }
 
@@ -346,7 +346,7 @@ p.derechosReservados {
 
 /*container de instrumentos*/
 .gradiente {
-  background-image: linear-gradient(45deg, blue, transparent);
+  background-image: linear-gradient(45deg, green, transparent);
 }
 
 .gradiente .instrumentos__gradiente, .gradiente h2 {
@@ -354,7 +354,7 @@ p.derechosReservados {
   padding: 50px;
   text-align: center;
   font-size: 30px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Alfa Slab One', cursive;
   letter-spacing: 2px;
   margin-top: 20px;
 }
@@ -432,7 +432,7 @@ p.derechosReservados {
 
 /*contacto*/
 .gradiente {
-  background-image: linear-gradient(45deg, blue, transparent);
+  background-image: linear-gradient(45deg, green, transparent);
 }
 
 .map {
