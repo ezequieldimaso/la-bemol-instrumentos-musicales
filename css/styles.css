@@ -306,7 +306,7 @@ p.derechosReservados {
   text-align: center;
   width: 80px;
   height: 80px;
-  line-height: 80px;
+  line-height: 85px;
   bottom: 30px;
   right: 30px;
   border-radius: 50px;
@@ -317,7 +317,7 @@ p.derechosReservados {
   .btnWhatsapp {
     width: 40px;
     height: 40px;
-    line-height: 40px;
+    line-height: 45px;
     right: 15px;
     font-size: 25px;
   }
@@ -327,7 +327,7 @@ p.derechosReservados {
   .btnWhatsapp {
     width: 60px;
     height: 60px;
-    line-height: 60px;
+    line-height: 65px;
     right: 22px;
     font-size: 30px;
   }
@@ -337,7 +337,7 @@ p.derechosReservados {
   .btnWhatsapp {
     width: 70px;
     height: 70px;
-    line-height: 70px;
+    line-height: 75px;
     right: 25px;
     font-size: 35px;
   }
