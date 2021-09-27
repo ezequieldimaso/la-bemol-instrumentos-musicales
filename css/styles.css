@@ -261,7 +261,7 @@ section .info h2.info__textoSubrayado {
   }
 }
 
-footer.site-footer .iconos {
+footer.site-footer .iconos a {
   color: white;
   font-size: 20px;
 }
@@ -299,7 +299,7 @@ p.derechosReservados {
   font-size: 13px;
 }
 
-.btnWhatsapp {
+.btnWhatsapp a {
   position: fixed;
   background-color: green;
   color: white;
@@ -314,7 +314,7 @@ p.derechosReservados {
 }
 
 @media screen and (min-width: 360px) {
-  .btnWhatsapp {
+  .btnWhatsapp a {
     width: 40px;
     height: 40px;
     line-height: 45px;
@@ -324,7 +324,7 @@ p.derechosReservados {
 }
 
 @media screen and (min-width: 768px) {
-  .btnWhatsapp {
+  .btnWhatsapp a {
     width: 60px;
     height: 60px;
     line-height: 65px;
@@ -334,7 +334,7 @@ p.derechosReservados {
 }
 
 @media screen and (min-width: 1024px) {
-  .btnWhatsapp {
+  .btnWhatsapp a {
     width: 70px;
     height: 70px;
     line-height: 75px;
