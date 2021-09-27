@@ -16,6 +16,7 @@
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta name="description" content="Contacto inmediato con nuestros profesionales,Direccion,lineas telefonicas de nuestras sucursales">
     <meta name="keywords" content="Instrumentos,Musica,Guitarras,Bajos,Percusion,Fender,Mapex,Marshall,facebook,Instagram,Twitter.">
 
@@ -42,57 +43,59 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link "role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Cuerdas
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <ul class="dropdown-menu animate__animated animate__backInUp" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="./Cuerdas.html">Guitarras</a></li>
                                     <li><a class="dropdown-item" href="./Cuerdas.html">Bajos</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                                <a class="nav-link" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Teclas
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <ul class="dropdown-menu animate__animated animate__backInUp" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="./teclas.html">Teclados</a></li>
                                     <li><a class="dropdown-item" href="./teclas.html">Sintetizadores</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                                <a class="nav-link" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Percusion
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <ul class="dropdown-menu animate__animated animate__backInUp" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="./percusion.html">Baterias Acusticas</a></li>
                                     <li><a class="dropdown-item" href="./percusion.html">Baterias Electricas</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                                <a class="nav-link" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Amplificadores
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="./amplificadores.html">Amplificadores de
-                                            Guitarras</a></li>
+                                <ul class="dropdown-menu animate__animated animate__backInUp" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="./amplificadores.html">Amplificadores de Guitarras</a></li>
                                     <li><a class="dropdown-item" href="./amplificadores.html">Amplificadores de Bajo</a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./Contacto.html">Contacto</a>
+                                <a class="nav-link active" href="./Contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.mercadopago.com.ar/paid?code=V1C70X&utm_source=google&utm_medium=cpc&utm_campaign=MLA_MP_G_AO_ALL_BRD_SEARCH_MP_EXACT&matt_tool=28766038&matt_word=&gclid=Cj0KCQjwtMCKBhDAARIsAG-2Eu_E1YeMVra_EEujaiOG_G-NewDO7WtzOY3Rpo7EylEuYdKJ8Yd4CoQaAm46EALw_wcB"><i class="fas fa-cart-arrow-down "></i></a>
                             </li>
                         </ul>
                         <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
                         </form>
                     </div>
                 </div>
@@ -114,7 +117,7 @@
                         width="1600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
                 
-                <!--mapa iframe comienzo-->
+                <!--mapa iframe fin-->
 
                 
                 <!--contacto con formulario comienzo-->
@@ -192,7 +195,19 @@
             
             <section class="container text-center ">
 
-                <div class="info">
+                <div class="info"  data-aos="fade-right">
+                    <i class="fas fa-music"></i>
+                    <h2 class="info__textoSubrayado">Formas de Pago</h2>
+                    <div class="iconos">
+                      <i class="fab fa-cc-amex"></i>
+                      <i class="fab fa-cc-diners-club"></i>
+                      <i class="fab fa-cc-mastercard"></i>
+                      <i class="fab fa-cc-paypal"></i>
+                      <i class="fab fa-cc-visa"></i>
+                    </div>
+                </div>
+
+                <div class="info" data-aos="fade-left" >
                     <i class="fas fa-music"></i>
                     <h2 class="info__textoSubrayado">Nosotros</h2>
                     <p class="info__parrafo">Somos una empresa con 25 años de experiencia en el mercado </p>
@@ -200,7 +215,7 @@
                     <p class="info__parrafo"> Productos de la mas alta calidad </p>
                 </div>
 
-                <div class="info">
+                <div class="info"  data-aos="fade-right">
                     <i class="fas fa-music"></i>
                     <h2 class="info__textoSubrayado">Envios Nacionales</h2>
                     <p class="info__parrafo">la Bemol instrumentos musicales realizará tu envío, una vez el
@@ -212,7 +227,7 @@
 
                 </div>
 
-                <div class="info">
+                <div class="info" data-aos="fade-left" >
                     <i class="fas fa-music"></i>
                     <h2 class="info__textoSubrayado">Terminos y Garantias</h2>
                     <p class="info__parrafo">Garantias,terminos y condiciones</p>
@@ -228,12 +243,16 @@
             <footer class="site-footer bg-dark text-white text-center">
                 <h2 class="pt-3">Seguinos</h2>
                 <div class="iconos">
-                    <i class="fab fa-facebook-f"></i>
+                    <a href="https://es-la.facebook.com/login/device-based/regular/login/" target="_blank"><i class="fab fa-facebook-f"></i></a>
 
-                    <i class="fab fa-instagram"></i>
+                    <a href="https://www.instagram.com/?hl=es" target="_blank"><i class="fab fa-instagram"></i></a>
 
-                    <i class="fab fa-twitter"></i>
+                    <a href="https://twitter.com/?lang=es" target="_blank"><i class="fab fa-twitter"></i></a>
+
+                    <a href="https://www.google.com/intl/es-419/gmail/about/" target="_blank"><i class="far fa-envelope"></i></a>
+                    
                 </div>
+
                 <div class="container pt-5 ">
                     <div class="row enlacesPie">
                         <div class="col order-last">
@@ -258,18 +277,26 @@
                           </div>
                         </div>
                     </div>
+                    <div class="container tex-center mt-5">
+                        <p class="derechosReservados">© La Bemol Instrumentos Musicales-2021</p>
+                    </div>
                 </div>
+
                 <div class="btnWhatsapp">
-                    <i class="fab fa-whatsapp"></i>
-                  </div>
+                    <a href="https://wa.me/5491133516646" target="_blank"> <i class="fab fa-whatsapp"></i></a> 
+                </div>
             </footer>
-            <!--pie de pagina comienzo-->
+            <!--pie de pagina fin-->
 
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
         crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+         AOS.init();
+        </script>
 
 </body>
 
