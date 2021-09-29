@@ -14,6 +14,22 @@ $gradienteSubtitulo: linear-gradient(
         font-family:'Alfa Slab One', cursive;
         letter-spacing: 2px;  
         margin-top: 20px; 
+        animation-name:luminico;
+        animation-duration: 1s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        @keyframes luminico {
+            0%{
+                color:lightsalmon;
+            }
+            50%{
+                color: violet;
+            }
+            100%{
+                color: purple;
+            }
+        }
     }
 }
 

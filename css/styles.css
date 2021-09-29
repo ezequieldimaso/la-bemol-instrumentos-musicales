@@ -10,7 +10,6 @@
 
 body {
   background-image: url(../imagenes/fondo.jpg);
-  background-repeat: repeat;
 }
 
 /*header*/
@@ -357,6 +356,40 @@ p.derechosReservados {
   font-family: 'Alfa Slab One', cursive;
   letter-spacing: 2px;
   margin-top: 20px;
+  -webkit-animation-name: luminico;
+          animation-name: luminico;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes luminico {
+  0% {
+    color: lightsalmon;
+  }
+  50% {
+    color: violet;
+  }
+  100% {
+    color: purple;
+  }
+}
+
+@keyframes luminico {
+  0% {
+    color: lightsalmon;
+  }
+  50% {
+    color: violet;
+  }
+  100% {
+    color: purple;
+  }
 }
 
 .instrumentos {
