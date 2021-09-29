@@ -2,6 +2,7 @@
 - camada:22220
 - Profesor:Rodrigo Zungri
 - Tutora:Vanina Scilletta
+- Desarrolo Web
 ## Idea
 - Para mi proyecto final en el curso de Desarollo Web trabaje la web(ficticia) con el nombre de **La Bemol Instrumentos Musicales**,una tienda online dedicada a la venta de instrumentos musicales.
 - El sitio web esta programado enteramente en HTML y CSS,aplicando los criterios vistos en clases respecto a la estructura visual,diseño atractivo y responsive,legibilidad,adaptacion al framework,uso de etiquetas y practicas de SEO.
