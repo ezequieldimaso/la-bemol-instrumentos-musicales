@@ -165,7 +165,7 @@ main .productos .productos__imagenes img.img, main .productos .productos__videos
   margin-bottom: 30px;
 }
 
-main .productos .productos__videos iframe.iframe {
+main .productos .productos__videos iframe.imgIframe {
   margin-bottom: 76px;
 }
 

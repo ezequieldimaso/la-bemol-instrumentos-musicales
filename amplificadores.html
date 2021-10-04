@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="librerias/fontawesome-free-5.15.3-web/css/all.css">
-    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
@@ -52,7 +52,7 @@
                   </ul>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link "role="button" data-bs-toggle="dropdown"
+                  <a class="nav-link" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     Teclas
                   </a>
@@ -126,14 +126,15 @@
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h4 class="modal-title bg-warning" id="amplificador-de-guitarra-boos">Boss</h4>
+                        <h4 class="modal-title bg-warning" >Boss</h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body instrumentosModal">
                         <img src="./imagenes/amplificador-de-guitarra-boos.jpg" class="img-fluid" alt="amplificador-de-guitarra-boos">
                       </div>
                       <div class="container-fluid">
-                        <ol class="containerDescripcion"><h5><strong>Descripcion</strong></h5>
+                        <ol class="containerDescripcion">
+                          <li><h5><strong>Descripcion</strong></h5></li>
                           <li>Altavoz programable.</li>
                           <li>Eq. de 3 bandas.</li>
                           <li>Salida altavos externa.</li>
@@ -158,33 +159,38 @@
                   <!--modal inicio-->
                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#amplificador-de-guitarra-fender">
                   Mas informacion
-                </button>
+                  </button>
 
-                <div class="modal fade" id="amplificador-de-guitarra-fender" tabindex="-1" aria-labelledby="amplificador-de-guitarra-fender" aria-hidden="true">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h4 class="modal-title bg-warning" id="amplificador-de-guitarra-fender">Fender/h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body instrumentosModal">
-                        <img src="./imagenes/amplificador-de-guitarra-fender.jpg" class="img-fluid" alt="amplificador-de-guitarra-fender">
-                      </div>
-                      <div class="container-fluid">
-                        <ol class="containerDescripcion"><h5><strong>Descripcion</strong></h5>
-                          <li>Potencia de 100 watts.</li>
-                          <li>1 canal.</li>
-                          <li>Peso:9,1kg.</li>
-                        </ol>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">cerrar</button>
+                  <div class="modal fade" id="amplificador-de-guitarra-fender" tabindex="-1"
+                    aria-labelledby="amplificador-de-guitarra-fender" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title bg-warning">Fender</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body instrumentosModal">
+                          <img src="./imagenes/amplificador-de-guitarra-fender.jpg" class="img-fluid"
+                            alt="amplificador-de-guitarra-fender">
+                        </div>
+                        <div class="container-fluid">
+                          <ol class="containerDescripcion">
+                            <li>
+                              <h5><strong>Descripcion</strong></h5>
+                            </li>
+                            <li>Potencia de 100 watts.</li>
+                            <li>1 canal.</li>
+                            <li>Peso:9,1kg.</li>
+                          </ol>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">cerrar</button>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <!--modal fin-->
-                </div>
               </div>
             </div>
             <div class="instrumentos__caja">
@@ -202,14 +208,15 @@
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h4 class="modal-title bg-warning" id="amplificador-de-guitarra-fender2">Fender/h4>
+                        <h4 class="modal-title bg-warning" >Fender</h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body instrumentosModal">
                         <img src="./imagenes/amplificador-de-guitarra-fender2.jpg" class="img-fluid" alt="amplificador-de-guitarra-fender2">
                       </div>
                       <div class="container-fluid">
-                        <ol class="containerDescripcion"><h5><strong>Descripcion</strong></h5>
+                        <ol class="containerDescripcion">
+                          <li><h5><strong>Descripcion</strong></h5></li>
                           <li>Canles:2.</li>
                           <li>Rectificador:estado solido.</li>
                           <li>Incluye cubierta.</li>
@@ -240,14 +247,15 @@
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h4 class="modal-title bg-warning" id="amplificador-de-guitarra-laney">Laney</h4>
+                        <h4 class="modal-title bg-warning" >Laney</h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body instrumentosModal">
                         <img src="./imagenes/amplificador-de-guitarra-laney.jpg" class="img-fluid" alt="amplificador-de-guitarra-laney">
                       </div>
                       <div class="container-fluid">
-                        <ol class="containerDescripcion"><h5><strong>Descripcion</strong></h5>
+                        <ol class="containerDescripcion">
+                          <li><h5><strong>Descripcion</strong></h5></li>
                           <li>Potencia de 100 watts rms.</li>
                           <li>Entrada sencilla jack.</li>
                           <li>Altavoz programable.</li>
@@ -278,14 +286,15 @@
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h4 class="modal-title bg-warning" id="amplificador-de-guitarra-marshall">Marshall</h4>
+                        <h4 class="modal-title bg-warning" >Marshall</h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body instrumentosModal">
                         <img src="./imagenes/amplificador-de-guitarra-marshall.jpg" class="img-fluid" alt="amplificador-de-guitarra-marshall">
                       </div>
                       <div class="container-fluid">
-                        <ol class="containerDescripcion"><h5><strong>Descripcion</strong></h5>
+                        <ol class="containerDescripcion">
+                          <li><h5><strong>Descripcion</strong></h5></li>
                           <li>Entrada mp3/line.</li>
                           <li>Altavoz programable.</li>
                           <li>3 Efectos digitales simultaneos.</li>
@@ -316,14 +325,15 @@
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h4 class="modal-title bg-warning" id="amplificador-de-guitarra-orange">Orange</h4>
+                        <h4 class="modal-title bg-warning" >Orange</h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body instrumentosModal">
                         <img src="./imagenes/amplificador-de-guitarra-orange.jpg" class="img-fluid" alt="amplificador-de-guitarra-orange">
                       </div>
                       <div class="container-fluid">
-                        <ol class="containerDescripcion"><h5><strong>Descripcion</strong></h5>
+                        <ol class="containerDescripcion">
+                          <li><h5><strong>Descripcion</strong></h5></li>
                           <li>Potencia  35 watts.</li>
                           <li>1 Altavoz de 10 pulgadas.</li>
                           <li>Reverb digital.</li>
@@ -354,14 +364,15 @@
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h4 class="modal-title bg-warning" id="amplificador-de-guitarra-vox">Vox</h4>
+                        <h4 class="modal-title bg-warning" >Vox</h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body instrumentosModal">
                         <img src="./imagenes/amplificador-de-guitarra-vox.jpg" class="img-fluid" alt="amplificador-de-guitarra-vox">
                       </div>
                       <div class="container-fluid">
-                        <ol class="containerDescripcion"><h5><strong>Descripcion</strong></h5>
+                        <ol class="containerDescripcion">
+                          <li><h5><strong>Descripcion</strong></h5></li>
                           <li>Afinador integrado.</li>
                           <li>Potencia 3 watts.</li>
                           <li>Aux-in.</li>
@@ -392,14 +403,15 @@
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h4 class="modal-title bg-warning" id="amplificador-de-guitarra-vox2">Vox</h4>
+                        <h4 class="modal-title bg-warning">Vox</h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body instrumentosModal">
                         <img src="./imagenes/amplificador-de-guitarra-vox2.jpg" class="img-fluid" alt="amplificador-de-guitarra-vox2">
                       </div>
                       <div class="container-fluid">
-                        <ol class="containerDescripcion"><h5><strong>Descripcion</strong></h5>
+                        <ol class="containerDescripcion">
+                          <li><h5><strong>Descripcion</strong></h5></li>
                           <li>Peso:32,0 kg.</li>
                           <li>16 ohmios.</li>
                           <li>30 vatios rms.</li>
@@ -430,14 +442,15 @@
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h4 class="modal-title bg-warning" id="amplificador-de-guitarra-vox3">Vox</h4>
+                        <h4 class="modal-title bg-warning" >Vox</h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body instrumentosModal">
                         <img src="./imagenes/amplificador-de-guitarra-vox3.jpg" class="img-fluid" alt="amplificador-de-guitarra-vox3">
                       </div>
                       <div class="container-fluid">
-                        <ol class="containerDescripcion"><h5><strong>Descripcion</strong></h5>
+                        <ol class="containerDescripcion">
+                          <li><h5><strong>Descripcion</strong></h5></li>
                           <li>Cableado a mano.</li>
                           <li>4 entradas.</li>
                           <li>Incluye pedal vfs1 y funda.</li>
@@ -472,34 +485,39 @@
                   <h5 class="card-title bg-warning">Ampeg</h5>
                   <p class="card-text">Amplificador Para Bajo Ampeg Ba108 V2 De 20 Watts Angulado Combo Compacto</p>
                   <!--modal inicio-->
-                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#amplficador-de-bajo-ampeg">
-                  Mas informacion
-                </button>
-
-                <div class="modal fade" id="amplficador-de-bajo-ampeg" tabindex="-1" aria-labelledby="amplficador-de-bajo-ampeg" aria-hidden="true">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h4 class="modal-title bg-warning" id="amplficador-de-bajo-ampeg">Ampeg/h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body instrumentosModal">
-                        <img src="./imagenes/guitarra-gretsch2.jpg" class="img-fluid" alt="guitarra-gretsch2">
-                      </div>
-                      <div class="container-fluid">
-                        <ol class="containerDescripcion"><h5><strong>Descripcion</strong></h5>
-                          <li>Tipo de altavoz: 8" Ampeg Custom8™</li>
-                          <li>Duradero Tolex® Ampeg Classic negro de doble grosor.</li>
-                          <li>Potencia de salida (RMS): 20 vatios a 4 ohmios.</li>
-                        </ol>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">cerrar</button>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#amplficador-de-bajo-ampeg">
+                    Mas informacion
+                  </button>
+          
+                  <div class="modal fade" id="amplficador-de-bajo-ampeg" tabindex="-1" aria-labelledby="amplficador-de-bajo-ampeg"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title bg-warning">Ampeg</h4>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body instrumentosModal">
+                          <img src="./imagenes/guitarra-gretsch2.jpg" class="img-fluid" alt="guitarra-gretsch2">
+                        </div>
+                        <div class="container-fluid">
+                          <ol class="containerDescripcion">
+                            <li>
+                              <h5><strong>Descripcion</strong></h5>
+                            </li>
+                            <li>Tipo de altavoz: 8" Ampeg Custom8™</li>
+                            <li>Duradero Tolex® Ampeg Classic negro de doble grosor.</li>
+                            <li>Potencia de salida (RMS): 20 vatios a 4 ohmios.</li>
+                          </ol>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">cerrar</button>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-                <!--modal fin-->
+                  <!--modal fin-->
                 </div>
               </div>
             </div>
@@ -518,14 +536,15 @@
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h4 class="modal-title bg-warning" id="amplificador-de-bajo-fender">Fender</h4>
+                        <h4 class="modal-title bg-warning" >Fender</h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body instrumentosModal">
                         <img src="./imagenes/amplificador-de-bajo-fender.jpg" class="img-fluid" alt="amplificador-de-bajo-fender">
                       </div>
                       <div class="container-fluid">
-                        <ol class="containerDescripcion"><h5><strong>Descripcion</strong></h5>
+                        <ol class="containerDescripcion">
+                          <li><h5><strong>Descripcion</strong></h5></li>
                           <li>Potenciónmetros Soft Touch Radio</li>
                           <li>1 altavoz Fender Special Design de 8"</li>
                           <li>Revestimiento de vinilo texturizado en negro con rejilla plateada</li>
@@ -556,14 +575,15 @@
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h4 class="modal-title bg-warning" id="amplificador-de-bajo-fender3">Fender</h4>
+                        <h4 class="modal-title bg-warning">Fender</h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body instrumentosModal">
                         <img src="./imagenes/amplificador-de-bajo-fender3.jpg" class="img-fluid" alt="guitarra-gretsch2">
                       </div>
                       <div class="container-fluid">
-                        <ol class="containerDescripcion"><h5><strong>Descripcion</strong></h5>
+                        <ol class="containerDescripcion">
+                          <li><h5><strong>Descripcion</strong></h5></li>
                           <li>Interruptor de impedancia (8, 4 o 2 ohmios).</li>
                           <li>Rectificador de estado sólido.</li>
                           <li>Pre / Conmutador Post EQ.</li>
@@ -594,14 +614,15 @@
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h4 class="modal-title bg-warning" id="amplificador-de-bajo-marshall">Marshall</h4>
+                        <h4 class="modal-title bg-warning">Marshall</h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body instrumentosModal">
                         <img src="./imagenes/amplificador-de-bajo-marshall.jpg" class="img-fluid" alt="amplificador-de-bajo-marshall">
                       </div>
                       <div class="container-fluid">
-                        <ol class="containerDescripcion"><h5><strong>Descripcion</strong></h5>
+                        <ol class="containerDescripcion">
+                          <li><h5><strong>Descripcion</strong></h5></li>
                           <li>Dimensiones: 390 x 380 x 240mm</li>
                           <li>Dimensiones: 390 x 380 x 240mm</li>
                           <li>Emulación de salida DI</li>
@@ -632,14 +653,15 @@
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h4 class="modal-title bg-warning" id="amplficador-de-bajo-blackstar">Blackstar</h4>
+                        <h4 class="modal-title bg-warning" >Blackstar</h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body instrumentosModal">
                         <img src="./imagenes/amplficador-de-bajo-blackstar.jpg" class="img-fluid" alt="amplficador-de-bajo-blackstar">
                       </div>
                       <div class="container-fluid">
-                        <ol class="containerDescripcion"><h5><strong>Descripcion</strong></h5>
+                        <ol class="containerDescripcion">
+                          <li><h5><strong>Descripcion</strong></h5></li>
                           <li>Bucle de efectos de la serie de 1/4 "</li>
                           <li>Modo de salida emulado por altavoz seleccionable</li>
                           <li>Asa de transporte en el panel superior</li>
@@ -670,14 +692,15 @@
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h4 class="modal-title bg-warning" id="amplficador-de-bajo-orange">Orange</h4>
+                        <h4 class="modal-title bg-warning">Orange</h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body instrumentosModal">
                         <img src="./imagenes/amplficador-de-bajo-orange.jpg" class="img-fluid" alt="amplficador-de-bajo-orange">
                       </div>
                       <div class="container-fluid">
-                        <ol class="containerDescripcion"><h5><strong>Descripcion</strong></h5>
+                        <ol class="containerDescripcion">
+                          <li><h5><strong>Descripcion</strong></h5></li>
                           <li>Tecnología de amplificador: Transistor</li>
                           <li>Parlante: 12"</li>
                           <li>amplficador-de-bajo-orange</li>
@@ -708,14 +731,15 @@
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h4 class="modal-title bg-warning" id="amplificador-de-bajo-hartke">Hartke</h4>
+                        <h4 class="modal-title bg-warning" >Hartke</h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body instrumentosModal">
                         <img src="./imagenes/amplificador-de-bajo-hartke.jpg" class="img-fluid" alt="amplificador-de-bajo-hartke">
                       </div>
                       <div class="container-fluid">
-                        <ol class="containerDescripcion"><h5><strong>Descripcion</strong></h5>
+                        <ol class="containerDescripcion">
+                          <li><h5><strong>Descripcion</strong></h5></li>
                           <li>Peso del imán: 100 oz</li>
                           <li>Sensibilidad: 98dB a 1W / 1M</li>
                           <li>Peso: 63 libras</li>
@@ -746,14 +770,15 @@
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h4 class="modal-title bg-warning" id="amplificador-de-bajo-hartke2">Hartke</h4>
+                        <h4 class="modal-title bg-warning">Hartke</h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body instrumentosModal">
                         <img src="./imagenes/amplificador-de-bajo-hartke2.jpg" class="img-fluid" alt="amplificador-de-bajo-hartke2">
                       </div>
                       <div class="container-fluid">
-                        <ol class="containerDescripcion"><h5><strong>Descripcion</strong></h5>
+                        <ol class="containerDescripcion">
+                          <li><h5><strong>Descripcion</strong></h5></li>
                           <li>Cono híbrido de papel / aluminio HyDrive de 12 "</li>
                           <li>Respuesta de baja frecuencia LF hasta 35 Hz a -10 dB</li>
                           <li>1 x entrada de 1/4 "</li>
@@ -784,14 +809,15 @@
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h4 class="modal-title bg-warning" id="amplificador-de-bajo-hartke3">Hartke</h4>
+                        <h4 class="modal-title bg-warning" >Hartke</h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body instrumentosModal">
                         <img src="./imagenes/amplificador-de-bajo-hartke3.jpg" class="img-fluid" alt="amplificador-de-bajo-hartke3">
                       </div>
                       <div class="container-fluid">
-                        <ol class="containerDescripcion"><h5><strong>Descripcion</strong></h5>
+                        <ol class="containerDescripcion">
+                          <li><h5><strong>Descripcion</strong></h5></li>
                           <li>Asa de transporte de correa moldeada</li>
                           <li>Ecualizador de tres bandas</li>
                           <li>amplificador-de-bajo-hartke3</li>
@@ -872,6 +898,7 @@
 
          <a href="https://www.google.com/intl/es-419/gmail/about/" target="_blank"><i class="far fa-envelope"></i></a>
         </div>
+
         <div class="container pt-5 ">
           <div class="row enlacesPie">
             <div class="col order-last">
@@ -899,6 +926,7 @@
             <p class="derechosReservados">© La Bemol Instrumentos Musicales-2021</p>
           </div>
         </div>
+
         <div class="btnWhatsapp">
           <a href="https://wa.me/5491133516646" target="_blank"> <i class="fab fa-whatsapp"></i></a> 
         </div>

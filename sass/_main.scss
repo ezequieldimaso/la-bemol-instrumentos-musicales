@@ -75,7 +75,7 @@ main{
         .productos__videos{
             @extend .productos__imagenes;
             iframe{
-                &.iframe{
+                &.imgIframe{
                     margin-bottom: $marginBtn + 46;
                 }
             }
